@@ -1,0 +1,12 @@
+version: "3"
+services:
+  db:
+    image: postgres:14.1-alpine
+    environment:
+      POSTGRES_DB: sch_management
+      POSTGRES_USER: gustavo
+      POSTGRES_PASSWORD: gustavo
+    ports:
+      - "5432:5432"
+    volumes:
+    - ./tmp/db:/var/lib/postgresql/data
