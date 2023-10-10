@@ -5,7 +5,7 @@ NAME = config("NAME")
 HOST = config("HOST")
 PORT = config("PORT")
 USER = config("USER")
-PASSWORD = config("PASSWORD_DB")
+PASSWORD = config("PASSWORD")
 
 
 ALLOWED_HOSTS = config("ALLOWED_HOSTS")
